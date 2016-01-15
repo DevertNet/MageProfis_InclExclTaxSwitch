@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageProfis_InclExclTaxSwitch>
+            <active>true</active>
+            <codePool>local</codePool>
+        </MageProfis_InclExclTaxSwitch>
+    </modules>
+</config>
