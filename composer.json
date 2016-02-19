@@ -1,0 +1,21 @@
+{
+  "name": "mageprofis/taxswitch",
+  "license": "GPL-3.0",
+  "type": "magento-module",
+  "description": "Magento Tax display Switch",
+  "homepage": "https://github.com/DevertNet/MageProfis_InclExclTaxSwitch",
+  "require": {
+    "php": ">=5.3"
+  },
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+   {
+      "name": "Leon Weickert",
+      "email": "leon@mage-profis.de",
+      "role": "Author"
+    }
+  ]
+}
+
