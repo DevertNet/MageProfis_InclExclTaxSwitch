@@ -17,6 +17,6 @@ class MageProfis_InclExclTaxSwitch_Model_Observer
     
     protected function _session()
     {
-        return Mage::getSingleton("core/session",  array("name"=>"frontend"));
+        return Mage::getSingleton("core/session");
     }
 }

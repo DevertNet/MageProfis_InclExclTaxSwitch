@@ -12,7 +12,7 @@ class MageProfis_InclExclTaxSwitch_Model_Tax_Config extends Mage_Tax_Model_Confi
      */
     public function getPriceDisplayType($store = null)
     {
-        $session = Mage::getSingleton("core/session",  array("name"=>"frontend"));
+        $session = Mage::getSingleton("core/session");
         $showincl = $session->getData("inclexcltaxswitch_showincl");
         
         if ( $showincl===true ) {
